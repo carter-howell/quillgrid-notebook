@@ -6,46 +6,163 @@
   <title>QuillGrid Notebook</title>
   <style>
     :root {
-      color: #242016;
-      background: #fbf6ea;
+      color: #20212a;
+      background: #f7f7f2;
       font-family: Georgia, "Times New Roman", serif;
+    }
+    * {
+      box-sizing: border-box;
     }
     body {
       margin: 0;
       min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 32px;
+      background:
+        linear-gradient(90deg, rgba(37, 88, 119, 0.08) 1px, transparent 1px) 0 0 / 42px 42px,
+        linear-gradient(0deg, rgba(126, 91, 46, 0.06) 1px, transparent 1px) 0 0 / 42px 42px,
+        #f7f7f2;
     }
     main {
-      max-width: 760px;
-      width: 100%;
-      background: #fffdf7;
-      border: 1px solid #e4d8bd;
-      border-radius: 8px;
-      padding: 36px;
-      box-shadow: 0 16px 45px rgba(82, 61, 24, 0.12);
+      width: min(980px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 52px 0 46px;
+    }
+    header {
+      display: grid;
+      gap: 18px;
+      padding-bottom: 34px;
+      border-bottom: 1px solid #cdd5cf;
     }
     h1 {
-      margin: 0 0 12px;
-      font-size: 36px;
-      line-height: 1.1;
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(38px, 6vw, 72px);
+      line-height: 0.96;
+      font-weight: 700;
+    }
+    .lead {
+      max-width: 720px;
+      margin: 0;
+      font-size: 21px;
+      line-height: 1.55;
+    }
+    .status {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .status span {
+      border: 1px solid #9bb2ba;
+      border-radius: 999px;
+      padding: 7px 12px;
+      background: rgba(255, 255, 255, 0.74);
+      font-size: 14px;
+    }
+    section {
+      padding: 30px 0;
+      border-bottom: 1px solid #cdd5cf;
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-size: 24px;
     }
     p {
-      font-size: 18px;
-      line-height: 1.6;
+      margin: 0 0 14px;
+      font-size: 17px;
+      line-height: 1.65;
+    }
+    ul {
+      margin: 0;
+      padding-left: 22px;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    .media {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+    .media img {
+      display: block;
+      width: 100%;
+      border: 1px solid #c4cec8;
+      border-radius: 8px;
+      background: #fffdf7;
     }
     a {
-      color: #1d62a7;
+      color: #1b638b;
       font-weight: 700;
+    }
+    footer {
+      padding-top: 24px;
+      color: #555d5f;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    @media (max-width: 700px) {
+      main {
+        width: min(100% - 28px, 980px);
+        padding-top: 34px;
+      }
+      .media {
+        grid-template-columns: 1fr;
+      }
+      .lead {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>QuillGrid Notebook</h1>
-    <p>A cozy letter-grid puzzle game for turning your own writing into playable notebook levels.</p>
-    <p><a href="privacy-policy.html">Privacy Policy</a></p>
+    <header>
+      <h1>QuillGrid Notebook</h1>
+      <p class="lead">A story-based Android word-search game where players turn their own writing into playable notebook chapters.</p>
+      <div class="status" aria-label="Project status">
+        <span>Godot 4</span>
+        <span>Android</span>
+        <span>Google Play review</span>
+        <span>Local-only data</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Project</h2>
+      <p>QuillGrid Notebook was built as a compact publishing project: a complete game loop, custom letter-grid interface, Android App Bundle export, store listing assets, and Play Console release preparation.</p>
+      <p>The public repository is an exhibit for the finished app rather than a source-code release. The active Godot project and build tooling remain local while the privacy policy and store-facing materials stay public.</p>
+    </section>
+
+    <section>
+      <h2>Gameplay</h2>
+      <ul>
+        <li>Create or paste a short story.</li>
+        <li>Generate puzzle chapters from story sentences.</li>
+        <li>Find selected words on the letter grid.</li>
+        <li>Reveal each sentence as the notebook is completed.</li>
+        <li>Save stories, progress, display settings, and audio settings locally.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Release</h2>
+      <p>The first production release, <strong>1.0.0</strong>, has been submitted to Google Play and is waiting for Google review and publishing propagation.</p>
+      <p>Privacy policy: <a href="privacy-policy.html">QuillGrid Notebook Privacy Policy</a></p>
+    </section>
+
+    <section>
+      <h2>Media</h2>
+      <div class="media">
+        <img src="../WordSearchCentral/store_assets/phone-01-board.png" alt="QuillGrid Notebook puzzle board screenshot">
+        <img src="../WordSearchCentral/store_assets/phone-02-editor.png" alt="QuillGrid Notebook story editor screenshot">
+        <img src="../WordSearchCentral/store_assets/phone-03-manager.png" alt="QuillGrid Notebook story manager screenshot">
+        <img src="../WordSearchCentral/store_assets/phone-04-complete.png" alt="QuillGrid Notebook completed level screenshot">
+      </div>
+    </section>
+
+    <footer>
+      QuillGrid Notebook is a supporting software project by Carter Howell. It demonstrates game completion, Android publishing, local-data privacy, and project presentation.
+    </footer>
   </main>
 </body>
 </html>
