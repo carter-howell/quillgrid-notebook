@@ -50,11 +50,25 @@ The privacy policy is kept in `docs/privacy-policy.html` because that URL is use
 
 ## Media
 
-Store-ready visual assets are kept under `WordSearchCentral/store_assets/`:
+Store-ready visual assets are kept under `media/`.
 
-- 512 x 512 app icon
-- 1024 x 500 feature graphic
-- Four 1920 x 1080 phone screenshots
+### App Icon
+
+![QuillGrid Notebook app icon](media/app-icon-512.png)
+
+### Feature Graphic
+
+![QuillGrid Notebook feature graphic](media/feature-graphic.png)
+
+### Screenshots
+
+![QuillGrid Notebook puzzle board screenshot](media/phone-01-board.png)
+
+![QuillGrid Notebook story editor screenshot](media/phone-02-editor.png)
+
+![QuillGrid Notebook story manager screenshot](media/phone-03-manager.png)
+
+![QuillGrid Notebook completed level screenshot](media/phone-04-complete.png)
 
 ## Source Availability
 
