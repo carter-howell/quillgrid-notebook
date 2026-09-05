@@ -6,8 +6,9 @@
 - Package name: `com.carterhowell.quillgridnotebook`
 - Play Console app ID: `4972128635610378486`
 - Category: Game, Word
-- Developer support email: TODO
-- Privacy policy URL: TODO, must host `PRIVACY_POLICY.md` somewhere public before production release
+- Developer support email: `carterhowell2005@gmail.com`
+- Public GitHub repo: https://github.com/carter-howell/quillgrid-notebook
+- Privacy policy URL: https://carter-howell.github.io/quillgrid-notebook/privacy-policy.html
 
 ## Build Requirements
 

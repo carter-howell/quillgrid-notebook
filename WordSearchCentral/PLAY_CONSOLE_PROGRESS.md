@@ -39,12 +39,13 @@ Last updated: September 4, 2026
 
 - Short description: Turn your own writing into cozy letter-grid puzzle chapters.
 - Full description: see `GOOGLE_PLAY_LISTING_DRAFT.md`.
-- Privacy policy: see `PRIVACY_POLICY.md`.
+- Public GitHub repo: https://github.com/carter-howell/quillgrid-notebook
+- Privacy policy: https://carter-howell.github.io/quillgrid-notebook/privacy-policy.html
 
 ## Remaining Console Tasks
 
 - Verify the inactivity warning clears, or complete the remaining account verification/action requested by Play Console before the listed deadline.
-- Host the privacy policy at a public URL and enter it in Play Console.
+- Enter the hosted privacy policy URL in Play Console.
 - Complete app category/contact details.
 - Complete ads, content rating, target audience, data safety, government apps, financial features, and health declarations.
 - Upload screenshots, 512 x 512 icon, and 1024 x 500 feature graphic.
