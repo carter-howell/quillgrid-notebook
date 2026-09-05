@@ -41,12 +41,13 @@ Last updated: September 4, 2026
 - Full description: see `GOOGLE_PLAY_LISTING_DRAFT.md`.
 - Public GitHub repo: https://github.com/carter-howell/quillgrid-notebook
 - Privacy policy: https://carter-howell.github.io/quillgrid-notebook/privacy-policy.html
+- Privacy policy URL entered in Play Console: yes.
+- Default store listing text entered in Play Console: yes.
+- Store listing visual assets uploaded: 512 x 512 app icon, 1024 x 500 feature graphic, and four 1920 x 1080 phone screenshots.
 
 ## Remaining Console Tasks
 
 - Verify the inactivity warning clears, or complete the remaining account verification/action requested by Play Console before the listed deadline.
-- Enter the hosted privacy policy URL in Play Console.
 - Complete app category/contact details.
 - Complete ads, content rating, target audience, data safety, government apps, financial features, and health declarations.
-- Upload screenshots, 512 x 512 icon, and 1024 x 500 feature graphic.
 - Publish a production release when the full store setup and review requirements are complete.
