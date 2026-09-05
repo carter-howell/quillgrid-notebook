@@ -1,0 +1,12 @@
+.agents/
+_unused_archive/
+tools/
+
+WordSearchCentral/.godot/
+WordSearchCentral/android/build/
+WordSearchCentral/android/build/build/
+WordSearchCentral/dist/
+WordSearchCentral/private/
+
+*.tmp
+*.log

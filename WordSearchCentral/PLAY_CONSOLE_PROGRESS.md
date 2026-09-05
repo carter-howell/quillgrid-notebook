@@ -1,0 +1,51 @@
+# QuillGrid Notebook Play Console Progress
+
+Last updated: September 4, 2026
+
+## Created App
+
+- App name: QuillGrid Notebook
+- Package name: com.carterhowell.quillgridnotebook
+- Play Console app ID: 4972128635610378486
+- App type: Game
+- Price: Free
+- Default language: English (United States)
+
+## Build Status
+
+- Windows executable created: `dist/QuillGridNotebook.exe`
+- Android App Bundle created: `dist/QuillGridNotebook.aab`
+- Android bundle size: 26,525,847 bytes.
+- Android release signing alias: `quillgridnotebook`
+- Upload certificate SHA-256 fingerprint: `3B:08:35:82:92:7F:6A:CF:A0:B8:CF:3C:A8:E2:04:75:B7:17:F5:D3:B1:5D:1B:BA:9F:C4:12:F9:BA:5B:78:B8`
+- Android SDK command-line tools installed through Scoop.
+- OpenJDK 17 installed through Scoop.
+- Android SDK platform/build tools/NDK/CMake are installed and accepted.
+- Godot 4.7.1 export templates are installed.
+
+## Internal Testing Release
+
+- Status: Active.
+- Release: `1 (1.0.0)`.
+- Version code: `1`.
+- Track: Internal testing.
+- Tester list: `QuillGrid Internal Testers`.
+- Tester count: 1.
+- Published in Play Console: September 4, 2026, 8:09 PM Central.
+- Tester join link: https://play.google.com/apps/internaltest/4701236487682669504
+- Play temporary tester-facing name until app review is complete: `com.carterhowell.quillgridnotebook (unreviewed)`.
+
+## Store Listing Draft Values
+
+- Short description: Turn your own writing into cozy letter-grid puzzle chapters.
+- Full description: see `GOOGLE_PLAY_LISTING_DRAFT.md`.
+- Privacy policy: see `PRIVACY_POLICY.md`.
+
+## Remaining Console Tasks
+
+- Verify the inactivity warning clears, or complete the remaining account verification/action requested by Play Console before the listed deadline.
+- Host the privacy policy at a public URL and enter it in Play Console.
+- Complete app category/contact details.
+- Complete ads, content rating, target audience, data safety, government apps, financial features, and health declarations.
+- Upload screenshots, 512 x 512 icon, and 1024 x 500 feature graphic.
+- Publish a production release when the full store setup and review requirements are complete.
