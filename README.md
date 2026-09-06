@@ -2,18 +2,18 @@
 
 Status: Android game submitted to Google Play production review
 
-QuillGrid Notebook is a small Android word-search game built around story-generated letter-grid levels. Players write or paste a story, turn sentences into playable puzzle chapters, and unlock the notebook one completed level at a time.
+I built QuillGrid Notebook as a small Android word-search game around story-generated letter-grid levels. Players write or paste a story, turn sentences into playable puzzle chapters, and unlock the notebook one completed level at a time.
 
-This repository is kept as a public project exhibit rather than a full source-code release. It documents the app concept, release preparation, store materials, and privacy policy while keeping the active Godot project and signing/build workflow local.
+I keep this repository as a public project exhibit rather than a full source-code release. It documents the app concept, release preparation, store materials, and privacy policy while keeping the active Godot project and signing/build workflow local.
 
 ## What It Demonstrates
 
-- Built a Godot 4 Android game with a custom 2D puzzle interface.
-- Implemented story-to-level generation for letter-grid gameplay.
-- Prepared an Android App Bundle for Google Play.
-- Created store listing copy, screenshots, app icon, feature graphic, and privacy policy.
-- Completed Play Console app-content declarations and submitted the first production release for review.
-- Kept the public repository legally distinct from any reference material or extracted assets.
+- I built a Godot 4 Android game with a custom 2D puzzle interface.
+- I implemented story-to-level generation for letter-grid gameplay.
+- I prepared an Android App Bundle for Google Play.
+- I created store listing copy, screenshots, app icon, feature graphic, and privacy policy.
+- I completed Play Console app-content declarations and submitted the first production release for review.
+- I kept the public repository legally distinct from any reference material or extracted assets.
 
 ## Gameplay
 
@@ -46,11 +46,11 @@ The public Play Store listing may not be visible until Google review and publish
 - Project page: https://carter-howell.github.io/quillgrid-notebook/
 - Privacy policy: https://carter-howell.github.io/quillgrid-notebook/privacy-policy.html
 
-The privacy policy is kept in `docs/privacy-policy.html` because that URL is used for the Google Play listing.
+I keep the privacy policy in `docs/privacy-policy.html` because that URL is used for the Google Play listing.
 
 ## Media
 
-Store-ready visual assets are kept under `media/`.
+I keep store-ready visual assets under `media/`.
 
 ### App Icon
 
@@ -72,10 +72,10 @@ Store-ready visual assets are kept under `media/`.
 
 ## Source Availability
 
-The active Godot source is intentionally not published in this repository. The public repo is an exhibit and release record, not an installable development checkout.
+I intentionally do not publish the active Godot source in this repository. The public repo is an exhibit and release record, not an installable development checkout.
 
 This keeps the GitHub page focused on the finished project, avoids exposing local publishing credentials or build artifacts, and lets the game code continue to evolve privately while the app is reviewed on Google Play.
 
 ## Portfolio Note
 
-This is a supporting software/game project. It demonstrates product completion, Android publishing, local-data privacy, and polished release preparation, but it should sit below embedded systems, PCB design, robotics, and power-electronics work in an electrical-engineering-focused portfolio.
+I treat this as a supporting software/game project. It demonstrates product completion, Android publishing, local-data privacy, and polished release preparation, but I keep it below embedded systems, PCB design, robotics, and power-electronics work in my electrical-engineering-focused portfolio.
