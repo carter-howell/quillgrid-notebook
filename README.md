@@ -4,16 +4,15 @@ Status: Android game submitted to Google Play production review
 
 I built QuillGrid Notebook as a small Android word-search game around story-generated letter-grid levels. Players write or paste a story, turn sentences into playable puzzle chapters, and unlock the notebook one completed level at a time.
 
-I keep this repository as a public project exhibit rather than a full source-code release. It documents the app concept, release preparation, store materials, and privacy policy while keeping the active Godot project and signing/build workflow local.
+The project combined game design, Godot UI work, Android export setup, Play Store release preparation, local data handling, and visual asset creation into one finished mobile-app workflow.
 
-## What It Demonstrates
+## What I Built
 
 - I built a Godot 4 Android game with a custom 2D puzzle interface.
 - I implemented story-to-level generation for letter-grid gameplay.
 - I prepared an Android App Bundle for Google Play.
 - I created store listing copy, screenshots, app icon, feature graphic, and privacy policy.
 - I completed Play Console app-content declarations and submitted the first production release for review.
-- I kept the public repository legally distinct from any reference material or extracted assets.
 
 ## Gameplay
 
@@ -70,12 +69,8 @@ I keep store-ready visual assets under `media/`.
 
 ![QuillGrid Notebook completed level screenshot](media/phone-04-complete.png)
 
-## Source Availability
+## Build Notes
 
-I intentionally do not publish the active Godot source in this repository. The public repo is an exhibit and release record, not an installable development checkout.
+I built the game in Godot 4 and structured it around a notebook-style progression loop: edit a story, generate playable word-search chapters, solve each grid, and reveal the original sentence after completion. I also kept the app local-first, so stories and progress stay on the device without requiring accounts, ads, analytics, or a backend service.
 
-This keeps the GitHub page focused on the finished project, avoids exposing local publishing credentials or build artifacts, and lets the game code continue to evolve privately while the app is reviewed on Google Play.
-
-## Portfolio Note
-
-I treat this as a supporting software/game project. It demonstrates product completion, Android publishing, local-data privacy, and polished release preparation, but I keep it below embedded systems, PCB design, robotics, and power-electronics work in my electrical-engineering-focused portfolio.
+The release work included Android package configuration, app signing/export steps, store screenshots, icon and feature graphics, Play Console declarations, and a privacy-policy page for the listing.
