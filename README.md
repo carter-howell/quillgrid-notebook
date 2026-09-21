@@ -4,7 +4,7 @@ Status: Android game submitted to Google Play production review
 
 I built QuillGrid Notebook as a small Android word-search game around story-generated letter-grid levels. Players write or paste a story, turn sentences into playable puzzle chapters, and unlock the notebook one completed level at a time.
 
-The project combined game design, Godot UI work, Android export setup, Play Store release preparation, local data handling, and visual asset creation into one finished mobile-app workflow.
+I designed the game, built the interface in Godot 4, exported the Android App Bundle, created the store graphics, and prepared the Google Play listing.
 
 ## What I Built
 
